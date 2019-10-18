@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Word GUess Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  
+    
+ <nav class="navbar bg-dark navbar-dark fixed-top ">
+     <h1 class="text-center text-light">The Word Guess Game</h1>
+ </nav>
+   
+   <!-- Home Section -->
+   
+   <header id="home-section">
+       <div class="dark-overlay">
+           <div class="home-inner container">
+               <div class="row">
+                   <div class="col-lg-8 d-lg-block">
+                      <h1 class="display-4">Press any key to get started</h1>
+                      <div class="d-flex">
+                          <h3 id="wins" class="p-4 align-self-start">Wins: </h3>
+                          
+                      </div> 
+                      <div class="d-flex">
+                          <h3 id="guesses" class="p-4 align-self-start">Number of guesses remaining:</h3>
+                      </div>
+                      <div class="d-flex">
+                          <h3 class="p-4 align-self-start">Current Word:</h3>
+                          <h3 id="guess" class="p-4 align-self-end">_ _ _ _ _ _</h3>
+                      </div>
+                      <div class="d-lex">
+                          <h3 id="user_Output" class="p-4 align-self-start">Letters already guessed:</h3>
+                      </div>
+                   </div>
+                   <div class="col-lg-4">
+                       <div class="card bg-primary text-center mt-5" style="width: 18rem;">
+                          <img id="myImage" src=" " class="card-img-top" alt="group Image">
+                          <div class="card-body">
+                            <h5 id="group" class="card-title">Group Band</h5>
+                            <p class="card-text">The best exponents of the '80s.</p>
+                            <a href="#" class="btn btn-secondary">Reset</a>
+                          </div>
+                    </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       
+   </header>
+    
+ <div class="my_game">
+     
+     <!-- <h2>Press any key to get started</h2> -->
+     
+     <script src="assets/javascript/game.js"></script>
+     
+     <!-- <h3 id="wins">Wins:</h3> -->
+     <!--<h3 id="guesses">Number of guesses remaining:</h3>-->
+     <!--<h3 >Current Word</h3> -->
+     <!--<h3 id="guess">_ _ _ _ _ _</h3> -->
+     <!--<h3 id="user_Output">Letters already guessed:</h3>-->
+     
+     
+      
+  </div>
+   
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    
+</body>
+</html>
