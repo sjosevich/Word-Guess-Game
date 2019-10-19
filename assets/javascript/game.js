@@ -85,7 +85,7 @@ document.onkeypress = function(event) {
     
     //console.log(userLetter1); 
     
-    var lettersUppercase = userGuess.toUpperCase();
+ /*   var lettersUppercase = userGuess.toUpperCase();
     
     if (letters.includes(lettersUppercase)){
         
@@ -95,20 +95,20 @@ document.onkeypress = function(event) {
               //console.log(letters[l])
               if (userLetter[k+countArray] == letters[l].toLocaleLowerCase()){
                   //console.log(userLetter[k+countArray], letters[l].toLocaleLowerCase());
-                  wins -= 1;
+                 // wins -= 1;
                   console.log(wins);
               }
           }
                
       }
       countArray +=1;  
-    }
+    } */
   // here I'm typing the guessed letter and substituting the letter for the underscore caracter, the letter will be saved on output      
         
     for (var j=0; j< answer.length; j++){
         if (userGuess.toUpperCase() == letters[j]){
             display[j]=userGuess.toUpperCase();  
-            //wins -= 1;
+            wins -= 1;
         }
         
         output = output + display[j] + " " ;
